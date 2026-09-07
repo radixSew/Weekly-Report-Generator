@@ -1,0 +1,6 @@
+@WeeklyReportBackend_HostAddress = http://localhost:5262
+
+GET {{WeeklyReportBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

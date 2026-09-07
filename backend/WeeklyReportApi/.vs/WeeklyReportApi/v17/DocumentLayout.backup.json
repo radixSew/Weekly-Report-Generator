@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\models\\reportversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\models\\reportversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\managerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\managerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\updatereportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\updatereportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\createreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\createreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\reporttaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\reporttaskrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\reviewreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\reviewreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|f:\\weekly_report_app\\backend\\weeklyreportapi\\weeklyreportapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D50C2D-B64E-436B-B926-C914BDD0D686}|WeeklyReportApi\\WeeklyReportApi.csproj|solutionrelative:weeklyreportapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\ProjectController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAwwNIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T14:50:56.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:12:39.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Project.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Models\\Project.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\Project.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:27:54.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProjectRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\CreateProjectRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\CreateProjectRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\CreateProjectRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\CreateProjectRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T14:48:50.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T10:54:20.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\ReportController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAGIDAAAAAAAAAAAAAHIDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T14:33:16.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportVersion.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\ReportVersion.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Models\\ReportVersion.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\ReportVersion.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Models\\ReportVersion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T13:16:52.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Models\\User.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\User.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Models\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA2wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:28:41.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Report.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Models\\Report.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Models\\Report.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Models\\Report.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:59:32.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Program.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Program.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Program.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwJAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T03:26:45.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManagerReportController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ManagerReportController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\ManagerReportController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\ManagerReportController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\ManagerReportController.cs",
+              "ViewState": "AgIAAGYBAAAAAAAAAAAAwHYBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T13:24:44.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateReportRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\UpdateReportRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\UpdateReportRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\UpdateReportRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\UpdateReportRequest.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:02:46.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateReportRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\CreateReportRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\CreateReportRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\CreateReportRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\CreateReportRequest.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA2wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T06:34:06.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReportTaskRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\ReportTaskRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\ReportTaskRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\ReportTaskRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\ReportTaskRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T06:30:13.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\DashboardController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T15:16:54.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReviewReportRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\ReviewReportRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\ReviewReportRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\ReviewReportRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\ReviewReportRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T13:33:44.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\Controllers\\TestController.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\Controllers\\TestController.cs",
+              "RelativeToolTip": "WeeklyReportApi\\Controllers\\TestController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwCkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:12:27.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:13:08.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "WeeklyReportApi\\DTOs\\LoginRequest.cs",
+              "ToolTip": "F:\\Weekly_Report_App\\backend\\WeeklyReportApi\\WeeklyReportApi\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "WeeklyReportApi\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T12:13:02.993Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
