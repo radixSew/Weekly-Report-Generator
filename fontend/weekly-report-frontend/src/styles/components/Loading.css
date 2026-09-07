@@ -1,0 +1,34 @@
+.common-loading {
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+.common-loading p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.loading-spinner {
+  width: 35px;
+  height: 35px;
+
+  border: 4px solid #e5e7eb;
+  border-top: 4px solid #2563eb;
+
+  border-radius: 50%;
+
+  animation: loading-spin 0.8s linear infinite;
+}
+
+@keyframes loading-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

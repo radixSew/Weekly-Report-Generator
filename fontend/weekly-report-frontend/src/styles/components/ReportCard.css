@@ -1,0 +1,81 @@
+.report-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.report-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.report-label {
+  display: block;
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.report-card-header h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #111827;
+}
+
+.report-card-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+
+  padding: 18px 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.report-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.report-info span {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.report-info strong {
+  color: #111827;
+  font-size: 14px;
+}
+
+.report-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+@media (max-width: 800px) {
+  .report-card-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .report-card-body {
+    grid-template-columns: 1fr;
+  }
+
+  .report-card-footer {
+    flex-direction: column;
+  }
+
+  .report-card-footer button {
+    width: 100%;
+  }
+}

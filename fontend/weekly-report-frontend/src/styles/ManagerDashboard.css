@@ -1,0 +1,1000 @@
+/* ========================================
+   Manager Dashboard
+======================================== */
+
+.manager-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+/* ========================================
+   Header
+======================================== */
+
+.manager-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manager-header-left h1 {
+  margin: 0;
+
+  font-size: 26px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.manager-header-left p {
+  margin: 5px 0 0;
+
+  font-size: 14px;
+
+  color: #6b7280;
+}
+
+.manager-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ========================================
+   Logout
+======================================== */
+
+.manager-logout-button {
+  border: none;
+
+  background: #ef4444;
+  color: #ffffff;
+
+  padding: 10px 20px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.manager-logout-button:hover {
+  background: #dc2626;
+}
+
+/* ========================================
+   Main Container
+======================================== */
+
+.manager-container {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  padding: 35px 40px 50px;
+}
+
+/* ========================================
+   Summary Cards
+======================================== */
+
+.manager-summary-cards {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.manager-summary-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 22px;
+
+  min-height: 120px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+
+  transition: 0.2s ease;
+}
+
+.manager-summary-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.summary-card-content {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.summary-icon {
+  font-size: 30px;
+}
+
+.summary-card-content h3 {
+  margin: 0 0 6px;
+
+  font-size: 14px;
+
+  color: #6b7280;
+}
+
+.summary-card-content p {
+  margin: 0;
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  color: #111827;
+}
+
+/* ========================================
+   Title Row
+======================================== */
+
+.manager-title-row {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.manager-title-row h2 {
+  margin: 0;
+
+  font-size: 22px;
+
+  color: #111827;
+}
+
+.manager-title-row p {
+  margin: 6px 0 0;
+
+  font-size: 14px;
+
+  color: #6b7280;
+}
+
+/* ========================================
+   Refresh
+======================================== */
+
+.refresh-button {
+  border: none;
+
+  background: #2563eb;
+
+  color: #ffffff;
+
+  padding: 10px 18px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.refresh-button:hover {
+  background: #1d4ed8;
+}
+
+/* ========================================
+   Filters
+======================================== */
+
+.manager-filters {
+  display: flex;
+
+  align-items: flex-end;
+
+  flex-wrap: wrap;
+
+  gap: 18px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin-bottom: 15px;
+}
+
+.manager-filter-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  width: 220px;
+}
+
+.manager-filter-group label {
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #374151;
+}
+
+.manager-filter-group select {
+  width: 100%;
+
+  padding: 11px 14px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: #111827;
+
+  font-size: 14px;
+
+  cursor: pointer;
+}
+
+.manager-filter-group select:focus {
+  outline: none;
+
+  border-color: #2563eb;
+
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* ========================================
+   Clear Filters
+======================================== */
+
+.clear-filter-button {
+  padding: 11px 18px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: #374151;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.clear-filter-button:hover {
+  background: #f3f4f6;
+}
+
+/* ========================================
+   Active Filter
+======================================== */
+
+.active-filter-message {
+  background: #eff6ff;
+
+  border: 1px solid #bfdbfe;
+
+  color: #1e40af;
+
+  padding: 11px 15px;
+
+  border-radius: 8px;
+
+  margin-bottom: 20px;
+
+  font-size: 14px;
+}
+
+/* ========================================
+   Charts Section
+======================================== */
+
+.manager-charts-section {
+  margin-top: 35px;
+
+  margin-bottom: 35px;
+}
+
+.charts-section-title {
+  margin-bottom: 18px;
+}
+
+.charts-section-title h2 {
+  margin: 0;
+
+  font-size: 22px;
+
+  color: #111827;
+}
+
+.charts-section-title p {
+  margin: 5px 0 0;
+
+  color: #6b7280;
+
+  font-size: 14px;
+}
+
+.manager-charts-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+.manager-chart-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 24px;
+
+  min-height: 280px;
+}
+
+.manager-chart-card h3 {
+  margin: 0 0 25px;
+
+  font-size: 16px;
+
+  color: #111827;
+}
+
+.manager-chart-full {
+  grid-column: 1 / -1;
+}
+
+/* ========================================
+   Status Chart
+======================================== */
+
+.status-chart,
+.project-chart,
+.member-chart {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.status-chart-row,
+.project-chart-row,
+.member-chart-row {
+  width: 100%;
+}
+
+.status-chart-label,
+.project-chart-label,
+.member-chart-label {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 7px;
+
+  font-size: 13px;
+}
+
+.status-chart-label span,
+.project-chart-label span,
+.member-chart-label span {
+  color: #4b5563;
+}
+
+.status-chart-label strong,
+.project-chart-label strong,
+.member-chart-label strong {
+  color: #111827;
+}
+
+/* ========================================
+   Status Bars
+======================================== */
+
+.status-bar-background,
+.project-bar-background,
+.member-bar-background {
+  width: 100%;
+
+  height: 9px;
+
+  background: #e5e7eb;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.status-bar,
+.project-bar,
+.member-bar {
+  height: 100%;
+
+  border-radius: 10px;
+
+  transition: width 0.5s ease;
+}
+
+.status-bar-draft {
+  background: #9ca3af;
+}
+
+.status-bar-submitted {
+  background: #3b82f6;
+}
+
+.status-bar-needs-correction {
+  background: #f59e0b;
+}
+
+.status-bar-approved {
+  background: #22c55e;
+}
+
+.project-bar {
+  background: #6366f1;
+}
+
+.member-bar {
+  background: #14b8a6;
+}
+
+/* ========================================
+   Empty Chart
+======================================== */
+
+.chart-empty {
+  text-align: center;
+
+  color: #9ca3af;
+
+  font-size: 14px;
+
+  padding: 30px 0;
+}
+
+/* ========================================
+   Reports List
+======================================== */
+
+.manager-reports-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* ========================================
+   Report Card
+======================================== */
+
+.manager-report-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+
+  transition: 0.2s ease;
+}
+
+.manager-report-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* ========================================
+   Report Header
+======================================== */
+
+.manager-report-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 20px 24px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.report-label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  color: #9ca3af;
+}
+
+.manager-report-header h3 {
+  margin: 0;
+
+  font-size: 21px;
+
+  color: #111827;
+}
+
+/* ========================================
+   Status Badge
+======================================== */
+
+.manager-status {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  background: #f3f4f6;
+
+  color: #374151;
+}
+
+.status-draft {
+  background: #f3f4f6;
+
+  color: #4b5563;
+}
+
+.status-submitted {
+  background: #dbeafe;
+
+  color: #1d4ed8;
+}
+
+.status-approved {
+  background: #dcfce7;
+
+  color: #15803d;
+}
+
+.status-needs-correction {
+  background: #fef3c7;
+
+  color: #b45309;
+}
+
+/* ========================================
+   Report Body
+======================================== */
+
+.manager-report-body {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+
+  padding: 24px;
+}
+
+.manager-info {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.manager-info span {
+  font-size: 11px;
+
+  font-weight: 600;
+
+  color: #9ca3af;
+
+  text-transform: uppercase;
+}
+
+.manager-info strong {
+  font-size: 14px;
+
+  color: #374151;
+
+  word-break: break-word;
+}
+
+/* ========================================
+   Report Footer
+======================================== */
+
+.manager-report-footer {
+  display: flex;
+
+  justify-content: flex-end;
+
+  padding: 16px 24px;
+
+  border-top: 1px solid #e5e7eb;
+
+  background: #fafafa;
+}
+
+/* ========================================
+   Review Button
+======================================== */
+
+.view-manager-report-button {
+  border: none;
+
+  background: #2563eb;
+
+  color: #ffffff;
+
+  padding: 10px 18px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.view-manager-report-button:hover {
+  background: #1d4ed8;
+}
+
+/* ========================================
+   Loading
+======================================== */
+
+.manager-loading {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.manager-loading h2 {
+  margin: 0;
+
+  color: #374151;
+
+  font-size: 20px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+
+  border: 4px solid #e5e7eb;
+
+  border-top-color: #2563eb;
+
+  border-radius: 50%;
+
+  animation: manager-spin 0.8s linear infinite;
+}
+
+@keyframes manager-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ========================================
+   Error
+======================================== */
+
+.manager-error {
+  background: #fef2f2;
+
+  border: 1px solid #fecaca;
+
+  border-radius: 12px;
+
+  padding: 25px;
+
+  text-align: center;
+}
+
+.manager-error h3 {
+  margin: 0 0 8px;
+
+  color: #b91c1c;
+}
+
+.manager-error p {
+  margin: 0 0 15px;
+
+  color: #7f1d1d;
+}
+
+.manager-error button {
+  border: none;
+
+  background: #dc2626;
+
+  color: #ffffff;
+
+  padding: 9px 18px;
+
+  border-radius: 7px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* ========================================
+   No Reports
+======================================== */
+
+.no-submitted-reports {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 50px 25px;
+
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+.no-submitted-reports h2 {
+  margin: 0 0 8px;
+
+  color: #374151;
+}
+
+.no-submitted-reports p {
+  margin: 0 0 20px;
+
+  color: #6b7280;
+
+  font-size: 14px;
+}
+
+/* ========================================
+   Tablet
+======================================== */
+
+@media (max-width: 1100px) {
+  .manager-summary-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .manager-mini-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .manager-report-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ========================================
+   Mobile
+======================================== */
+
+@media (max-width: 700px) {
+  .manager-header {
+    padding: 18px 20px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 15px;
+  }
+
+  .manager-header-actions {
+    width: 100%;
+  }
+
+  .manager-logout-button {
+    width: 100%;
+  }
+
+  .manager-container {
+    padding: 25px 20px 40px;
+  }
+
+  .manager-summary-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .manager-mini-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .manager-title-row {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .refresh-button {
+    width: 100%;
+  }
+
+  .manager-filters {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .manager-filter-group {
+    width: 100%;
+  }
+
+  .clear-filter-button {
+    width: 100%;
+  }
+
+  .manager-charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .manager-chart-full {
+    grid-column: auto;
+  }
+
+  .manager-report-header {
+    padding: 18px;
+
+    align-items: flex-start;
+  }
+
+  .manager-report-body {
+    grid-template-columns: 1fr;
+
+    padding: 20px 18px;
+
+    gap: 16px;
+  }
+
+  .manager-report-footer {
+    padding: 15px 18px;
+  }
+
+  .view-manager-report-button {
+    width: 100%;
+  }
+}
+
+/* ========================================
+   Small Mobile
+======================================== */
+
+@media (max-width: 450px) {
+  .manager-header-left h1 {
+    font-size: 21px;
+  }
+
+  .manager-summary-card {
+    padding: 18px;
+  }
+
+  .summary-card-content p {
+    font-size: 27px;
+  }
+
+  .manager-report-header {
+    flex-direction: column;
+
+    gap: 12px;
+  }
+
+  .manager-status {
+    align-self: flex-start;
+  }
+}
+/* ========================================
+   Project Management Button
+======================================== */
+
+.manager-project-button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.manager-project-button:hover {
+  background: #1d4ed8;
+}
+
+.manager-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .manager-header-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .manager-project-button,
+  .manager-logout-button {
+    width: 100%;
+  }
+}

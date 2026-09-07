@@ -1,0 +1,37 @@
+.common-error {
+  padding: 30px;
+  margin: 20px 0;
+
+  text-align: center;
+
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+}
+
+.common-error h3 {
+  margin: 0 0 8px;
+  color: #991b1b;
+}
+
+.common-error p {
+  margin: 0 0 16px;
+  color: #7f1d1d;
+}
+
+.error-retry-button {
+  border: none;
+  background: #dc2626;
+  color: white;
+
+  padding: 9px 16px;
+
+  border-radius: 7px;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error-retry-button:hover {
+  background: #b91c1c;
+}
